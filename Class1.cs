@@ -24,7 +24,7 @@ namespace PlaywrightTestExample
 
             // Enter the username and password
             await Page.FillAsync("input[name='username']", "privacytest79@gmail.com");
-            await Page.FillAsync("input[password='password']", "Apple_123_!");
+            await Page.FillAsync("input[password='password']", "Apple_123");
 
             // Click on the login button
             await Page.ClickAsync("button[type='Login']");
